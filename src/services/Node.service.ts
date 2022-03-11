@@ -26,7 +26,7 @@ const NODES: NodeModel[] = [
 export const NodeService = {
     getNodesWithName: (nameWith: string): Promise<NodeModel[]> => {
         return new Promise<NodeModel[]>((resolve, reject) => {
-            if (!nameWith || nameWith.length < 2) {
+            if (!nameWith || nameWith.length == 0) {
                 resolve([]);
             }
 

@@ -1,5 +1,8 @@
-.App {
+.app {
   text-align: center;
-  display: flex;
   padding: 32px;
+}
+
+.app-container {
+  display: flex;
 }
