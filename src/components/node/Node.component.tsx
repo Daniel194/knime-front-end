@@ -31,7 +31,7 @@ function NodeComponent({node}: NodeComponentProps) {
 
     if (node) {
         return (
-            <div className="node-container ">
+            <div className="node-container">
                 <h5>{node.description}</h5>
                 {getImage(node.name)}
                 <h6>{node.name}</h6>
