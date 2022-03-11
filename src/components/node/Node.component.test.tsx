@@ -3,7 +3,7 @@ import {render, screen} from '@testing-library/react';
 import NodeComponent from './Node.component';
 import {SOURCE} from "./const";
 
-test('render add new node search input', () => {
+test('render node', () => {
     const result = render(<NodeComponent node={
         {
             name: SOURCE,

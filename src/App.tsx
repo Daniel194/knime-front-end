@@ -44,7 +44,7 @@ function App() {
             </div>
             <div className="app-container">
                 {
-                    nodes?.map(node => (<NodeComponent node={node}/>))
+                    nodes?.map((node, index) => (<NodeComponent key={`node-${index}`} node={node}/>))
                 }
             </div>
         </div>
